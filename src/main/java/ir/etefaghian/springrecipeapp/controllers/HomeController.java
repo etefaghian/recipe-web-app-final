@@ -1,0 +1,15 @@
+package ir.etefaghian.springrecipeapp.controllers;
+
+
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+@RequestMapping({"/"})
+public class HomeController {
+
+    public String home()
+    {
+        return "Hello world";
+    }
+}
